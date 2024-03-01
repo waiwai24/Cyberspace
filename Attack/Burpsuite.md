@@ -20,7 +20,7 @@ Burp Suite是一个用于Web应用程序渗透测试的工具，它需要通过�
 
 用于显示和修改HTTP请求和响应，通过你的浏览器和Web服务器之间。在BurpProxy的选项中，可以配置拦截规则来确定请求是什么和响应被拦截(例如，范围内的项目，与特定文件扩展名，项目要求与参数，等)
 
-![](img/Burpsuite.assets/bp1.drawio.png)
+![](.img/Burpsuite.assets/bp1.drawio.png)
 
 raw中参数解释：
 
@@ -49,7 +49,7 @@ raw中参数解释：
 - raw：这里显示的是纯文本形式的消息。在文本窗口的底部提供了一个搜索和加亮功能，可以用它来快速地定位出消息中的感兴趣的字符串，如错误消息。在搜索的左边有一个弹出项，让你来处理大小写问题，以及是使用简单的文本搜索还是正则表达搜索。
 - hex：这里允许你直接编辑消息的原始二进制数据。如果在文本编辑器里修改，某些传输类型(例如，使用 MIME 编码的浏览器请求的部分)包含的二进制数据可能被损坏。为了修改这些类型的消息，应使用十六进制。
 
-![image-20231209092512623](img/Burpsuite.assets/image-20231209092512623.png)
+![image-20231209092512623](.img/Burpsuite.assets/image-20231209092512623.png)
 
 - Host主机 - The protocol and server hostname.
 - Method请求方式 - The HTTP method.
@@ -74,4 +74,4 @@ The HTTP history is always updated, even if Intercept is off. This enables you t
 
 这个选项主要用于记录WebSockets的数据包，是HTML5中最强大的通信功能，定义了一个全双工的通信信道，只需Web上的一个 Socket即可进行通信，能减少不必要的网络流量并降低网络延迟
 
-![image-20231209093919163](img/Burpsuite.assets/image-20231209093919163.png)
+![image-20231209093919163](.img/Burpsuite.assets/image-20231209093919163.png)
