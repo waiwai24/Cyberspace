@@ -18,6 +18,8 @@ docker compose up -d
 
 发送如下数据包，可见代码`var_dump(233*233);`成功执行：
 
+记得User-Agentt最后一定要加`;` ,否则会报错
+
 ```
 GET / HTTP/1.1
 Host: localhost:8080
@@ -39,3 +41,7 @@ Connection: close
 https://cloud.tencent.com/developer/article/1839234
 
 https://github.com/vulhub/vulhub/blob/master/php/8.1-backdoor/README.zh-cn.md
+
+## 3.相关题目
+
+qsnctf：https://www.qsnctf.com/#/main/driving-range PHP的后门
